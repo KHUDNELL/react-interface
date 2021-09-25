@@ -1,10 +1,11 @@
-import {BiTrash} from "react-icons/bi";
+import {BiArchive} from "react-icons/bi";
+import Search from "./components/Search";
 
 function App() {
   return (
     <div className="App container mx-auto mt-3 font-thin">
-    <h1 className="text-5xl"> <BiTrash className="inline-block text-red-400 align-top"/>Your Appointments</h1>
-     
+    <h1 className="text-5xl"> <BiArchive className="inline-block text-red-400 align-top"/>Your Appointments</h1>
+     <Search />
     </div>
   );
 }
