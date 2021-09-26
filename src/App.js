@@ -46,6 +46,10 @@ function App() {
      <AddAppointment />
      <Search query={query}
        onQueryChange={myQuery => setQuery(myQuery)}
+       orderBy={orderBy}
+       onOrderByChange={mySort => setOrderBy(mySort)}
+       sortBy={sortBy}
+       onSortByChange = {mySort => setSortBy(mySort)}
      />
 
      <ul className="divide-y divide-gray-200">
